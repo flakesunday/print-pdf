@@ -1,0 +1,20 @@
+{
+  "name": "print-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "qrcode": "nodemon qrcode.js",
+    "pdf": "nodemon print-pdf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "pdfkit": "^0.15.0",
+    "qrcode": "^1.5.3"
+  }
+}
