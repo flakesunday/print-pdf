@@ -12,7 +12,7 @@ app.get("/api/data", async (req, res) => {
     name: "Example",
     info: "This is mock data for testing.",
   };
-  res.json(mockData);
+  res.send("hello");
 });
 
 // Endpoint เพื่อสร้าง QR code

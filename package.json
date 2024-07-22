@@ -5,16 +5,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "qrcode": "nodemon qrcode.js",
-    "pdf": "nodemon print-pdf.js"
+    "pdf": "nodemon print-pdf.js",
+    "puppet": "nodemon print-pdf-puppeteer.js",
+    "html": "nodemon print-pdf-html-pdf.js",
+    "html-node": "nodemon print-pdf-html-pdf-node.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "axios": "^1.7.2",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "html-pdf": "^3.0.1",
+    "html-pdf-node": "^1.0.8",
     "nodemon": "^3.1.4",
     "pdfkit": "^0.15.0",
+    "puppeteer": "^22.13.1",
     "qrcode": "^1.5.3"
   }
 }
